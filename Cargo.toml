@@ -1,14 +1,13 @@
 [package]
-name = "turn-server"
-version = "4.0.0"
+name = "crypta-turn"
+version = "1.0.0"
 edition = "2024"
-authors = ["mycrl <lepidodendraceae@gmail.com>"]
-description = "A pure rust-implemented turn server."
+description = "Crypta TURN Server — secure WebRTC relay for the Crypta P2P messaging platform."
 readme = "./README.md"
-homepage = "https://github.com/mycrl/turn-rs"
-repository = "https://github.com/mycrl/turn-rs"
+homepage = "https://github.com/JoranFreire/crypta-turn"
+repository = "https://github.com/JoranFreire/crypta-turn"
 license = "MIT"
-keywords = ["stun", "webrtc", "turn", "turn-server"]
+keywords = ["stun", "webrtc", "turn", "turn-server", "crypta"]
 categories = ["parsing", "network-programming"]
 
 [dependencies]
