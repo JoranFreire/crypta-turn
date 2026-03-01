@@ -164,22 +164,8 @@ stdout = true
 enable-hooks-auth = false
 #
 #
-# Static authentication key value (string) that applies only to the TURN REST API.
-# If set, the turn server will not request external services via the GRPC
-# Hooks API to obtain the key.
+# Chave partilhada com o Bootstrap Server para geração de credenciais HMAC.
+# IMPORTANTE: Trocar antes de ir para produção.
+# Deve ser igual ao TURN_SECRET do Bootstrap Server.
 #
-# static-auth-secret = ""
-#
-#
-# static user password
-#
-# This option can be used to specify the static identity authentication
-# information used by the turn server for verification.
-#
-# Note: this is a high-priority authentication method, the server
-# will try to use static authentication first, and then use external
-# control service authentication.
-#
-[auth.static-credentials]
-user1 = "test"
-user2 = "test"
+static-auth-secret = "crypta-dev-secret-change-me"
